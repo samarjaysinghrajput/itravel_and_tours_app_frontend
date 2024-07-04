@@ -97,11 +97,11 @@ export const FinalPrice = ({ singleHotel }) => {
       <div className="price-distribution d-flex direction-column">
         <div className="final-price d-flex align-center justify-space-between">
           <span className="span">Rs. {price} x 1 nights</span>
-          <span className="span">Rd. {price * 1}</span>
+          <span className="span">Rs. {price * 1}</span>
         </div>
         <div className="final-price d-flex align-center justify-space-between">
           <span className="span">Service fee</span>
-          <span className="span">Rd. 200</span>
+          <span className="span">Rs. 200</span>
         </div>
         <div className="final-price d-flex align-center justify-space-between">
           <span className="span">Total</span>
